@@ -2,7 +2,7 @@
 using System.IO;
 using System.Text;
 
-namespace FunctionalCSharp.After
+namespace FunctionalCSharp.Sample3.After
 {
     public static class StreamFactory
     {

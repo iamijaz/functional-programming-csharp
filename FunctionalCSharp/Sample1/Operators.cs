@@ -1,6 +1,6 @@
 
 
-namespace FunctionalCSharp.Sample1.Before
+namespace FunctionalCSharp.Sample1
 {
     public sealed class MySingleton2
     {

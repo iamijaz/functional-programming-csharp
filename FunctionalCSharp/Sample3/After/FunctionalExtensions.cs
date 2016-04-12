@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FunctionalCSharp.After
+namespace FunctionalCSharp.Sample3.After
 {
     public static class FunctionalExtensions
     {

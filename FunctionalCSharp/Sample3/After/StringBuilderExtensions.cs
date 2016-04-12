@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FunctionalCSharp.After
+namespace FunctionalCSharp.Sample3.After
 {
     public static class StringBuilderExtensions
     {

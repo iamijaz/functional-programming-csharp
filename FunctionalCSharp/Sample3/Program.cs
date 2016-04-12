@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FunctionalCSharp
+namespace FunctionalCSharp.Sample3
 {
     class Program
     {

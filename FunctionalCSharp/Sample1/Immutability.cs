@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace FunctionalCSharp.Sample1.Before
+namespace FunctionalCSharp.Sample1
 {
     public class DateRange
     {

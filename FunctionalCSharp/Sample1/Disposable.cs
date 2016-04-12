@@ -1,7 +1,7 @@
 using System;
 using System.Xml.Linq;
 
-namespace FunctionalCSharp.Sample1.Before
+namespace FunctionalCSharp.Sample1
 {
     public class program
     {

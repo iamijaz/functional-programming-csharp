@@ -21,9 +21,7 @@ namespace FunctionalCSharp.Sample1.After
         {
             var time =
                 Disposable
-                    .Using(
-                        () => new System.Net.WebClient(),
-                        client => XDocument.Parse(client.DownloadString("http://time.gov/actualtime.cgi")))
+                    .Using(() => new System.Net.WebClient(), client => XDocument.Parse(client.DownloadString("http://time.gov/actualtime.cgi")))
                     .Root
                     .Attribute("time")
                     .Value;

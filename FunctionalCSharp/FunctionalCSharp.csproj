@@ -43,26 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="After\Disposable.cs" />
-    <Compile Include="After\FunctionalExtensions.cs" />
-    <Compile Include="After\HtmlBuilder.cs" />
-    <Compile Include="After\Program.cs" />
-    <Compile Include="After\Result.cs" />
-    <Compile Include="After\StreamFactory.cs" />
-    <Compile Include="After\StringBuilderExtensions.cs" />
-    <Compile Include="After\Validator.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Sample3\After\Disposable.cs" />
+    <Compile Include="Sample3\After\FunctionalExtensions.cs" />
+    <Compile Include="Sample3\After\HtmlBuilder.cs" />
+    <Compile Include="Sample3\After\Program.cs" />
+    <Compile Include="Sample3\After\Result.cs" />
+    <Compile Include="Sample3\After\StreamFactory.cs" />
+    <Compile Include="Sample3\After\StringBuilderExtensions.cs" />
+    <Compile Include="Sample3\After\Validator.cs" />
+    <Compile Include="Sample3\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sample1\After\Disposable.cs" />
     <Compile Include="Sample1\After\Immutability.cs" />
     <Compile Include="Sample1\After\Operators.cs" />
-    <Compile Include="Sample1\Before\Immutability.cs" />
-    <Compile Include="Sample1\Before\Operators.cs" />
+    <Compile Include="Sample1\Immutability.cs" />
+    <Compile Include="Sample1\Operators.cs" />
     <Compile Include="Sample2\AnonymousMethods.cs" />
     <Compile Include="Sample2\ClassicDelegation.cs" />
     <Compile Include="Sample2\Interfaces.cs" />
     <Compile Include="Sample2\LambdaExpressions.cs" />
-    <Compile Include="StreamFactory.cs" />
+    <Compile Include="Sample3\StreamFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Docs\1-functional-programming-csharp-m1-slides.pdf" />
@@ -70,7 +70,7 @@
     <None Include="Docs\3-functional-programming-csharp-m3-slides.pdf" />
     <None Include="Docs\4-functional-programming-csharp-m4-slides.pdf" />
     <None Include="App.config" />
-    <Compile Include="Sample1\Before\Disposable.cs" />
+    <Compile Include="Sample1\Disposable.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

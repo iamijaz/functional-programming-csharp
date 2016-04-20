@@ -5,53 +5,6 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalCSharp", "FunctionalCSharp\FunctionalCSharp.csproj", "{DC0FE2A9-3967-4247-B8C3-D597C497F928}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applying Functional Principles", "Applying Functional Principles", "{A3A6346A-8C45-4585-A199-CD4C6E62259D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6", "6", "{D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7", "7", "{659BB1FD-BEBC-4599-A2D1-C8157ED939FB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{137C00B4-9713-40BF-9C33-9EDF4481FFBC}"
-	ProjectSection(SolutionItems) = preProject
-		Applying Functional Principles\docs\1-csharp-applying-functional-principles-m1-slides.pdf = Applying Functional Principles\docs\1-csharp-applying-functional-principles-m1-slides.pdf
-		Applying Functional Principles\docs\2-csharp-applying-functional-principles-m2-slides.pdf = Applying Functional Principles\docs\2-csharp-applying-functional-principles-m2-slides.pdf
-		Applying Functional Principles\docs\3-csharp-applying-functional-principles-m3-slides.pdf = Applying Functional Principles\docs\3-csharp-applying-functional-principles-m3-slides.pdf
-		Applying Functional Principles\docs\4-csharp-applying-functional-principles-m4-slides.pdf = Applying Functional Principles\docs\4-csharp-applying-functional-principles-m4-slides.pdf
-		Applying Functional Principles\docs\5-csharp-applying-functional-principles-m5-slides.pdf = Applying Functional Principles\docs\5-csharp-applying-functional-principles-m5-slides.pdf
-		Applying Functional Principles\docs\6-csharp-applying-functional-principles-m6-slides.pdf = Applying Functional Principles\docs\6-csharp-applying-functional-principles-m6-slides.pdf
-		Applying Functional Principles\docs\7-csharp-applying-functional-principles-m7-slides.pdf = Applying Functional Principles\docs\7-csharp-applying-functional-principles-m7-slides.pdf
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorsAndFailures", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\ErrorsAndFailures\ErrorsAndFailures.csproj", "{0E728935-9E7E-4DE2-873E-62136C2A0318}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\Exceptions\Exceptions.csproj", "{B384A028-C393-4B29-979B-0384F2CC89F2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutability", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\Immutability\Immutability.csproj", "{89FBB384-70AD-4D7B-AE49-9836068D30B5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutability.Tests", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\Immutability.Tests\Immutability.Tests.csproj", "{7CAC65EF-13BE-4E6A-866D-39AD663773D6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nulls.Logic", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\Nulls.Logic\Nulls.Logic.csproj", "{62E95356-602B-4402-AD5F-1836EAF47982}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveObsession.Logic", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\PrimitiveObsession.Logic\PrimitiveObsession.Logic.csproj", "{07297040-9966-4D27-8A99-C64084DFAA69}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nulls.UI", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\Nulls.UI\Nulls.UI.csproj", "{0CB16336-73F4-4FA8-892D-BFB1A3AA1989}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveObsession.UI", "Applying Functional Principles\6-csharp-applying-functional-principles-m6-exercise-files\FunctionalPrinciples\PrimitiveObsession.UI\PrimitiveObsession.UI.csproj", "{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "After", "After", "{A6A2A4B5-4E0E-4111-9C0D-7FC39FF40124}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Api", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\Old\CustomerManagement.Api\CustomerManagement.Api.csproj", "{B744A0D1-328B-46DC-B7F0-CC983AFCA514}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Logic", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\Old\CustomerManagement.Logic\CustomerManagement.Logic.csproj", "{2BCE9B2C-0C20-4219-A945-4A35FEDBD542}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Tests", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\Old\CustomerManagement.Tests\CustomerManagement.Tests.csproj", "{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Api", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\New\CustomerManagement.Api\CustomerManagement.Api.csproj", "{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Logic", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\New\CustomerManagement.Logic\CustomerManagement.Logic.csproj", "{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Tests", "Applying Functional Principles\7-csharp-applying-functional-principles-m7-exercise-files\CustomerManagement\New\CustomerManagement.Tests\CustomerManagement.Tests.csproj", "{9F1D5B99-9D83-4172-B89E-76D112C94900}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,84 +15,8 @@ Global
 		{DC0FE2A9-3967-4247-B8C3-D597C497F928}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC0FE2A9-3967-4247-B8C3-D597C497F928}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC0FE2A9-3967-4247-B8C3-D597C497F928}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E728935-9E7E-4DE2-873E-62136C2A0318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E728935-9E7E-4DE2-873E-62136C2A0318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E728935-9E7E-4DE2-873E-62136C2A0318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E728935-9E7E-4DE2-873E-62136C2A0318}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B384A028-C393-4B29-979B-0384F2CC89F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B384A028-C393-4B29-979B-0384F2CC89F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B384A028-C393-4B29-979B-0384F2CC89F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B384A028-C393-4B29-979B-0384F2CC89F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89FBB384-70AD-4D7B-AE49-9836068D30B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89FBB384-70AD-4D7B-AE49-9836068D30B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89FBB384-70AD-4D7B-AE49-9836068D30B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89FBB384-70AD-4D7B-AE49-9836068D30B5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7CAC65EF-13BE-4E6A-866D-39AD663773D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CAC65EF-13BE-4E6A-866D-39AD663773D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CAC65EF-13BE-4E6A-866D-39AD663773D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CAC65EF-13BE-4E6A-866D-39AD663773D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62E95356-602B-4402-AD5F-1836EAF47982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62E95356-602B-4402-AD5F-1836EAF47982}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62E95356-602B-4402-AD5F-1836EAF47982}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62E95356-602B-4402-AD5F-1836EAF47982}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07297040-9966-4D27-8A99-C64084DFAA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07297040-9966-4D27-8A99-C64084DFAA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07297040-9966-4D27-8A99-C64084DFAA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07297040-9966-4D27-8A99-C64084DFAA69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0CB16336-73F4-4FA8-892D-BFB1A3AA1989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0CB16336-73F4-4FA8-892D-BFB1A3AA1989}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0CB16336-73F4-4FA8-892D-BFB1A3AA1989}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0CB16336-73F4-4FA8-892D-BFB1A3AA1989}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B744A0D1-328B-46DC-B7F0-CC983AFCA514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B744A0D1-328B-46DC-B7F0-CC983AFCA514}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B744A0D1-328B-46DC-B7F0-CC983AFCA514}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B744A0D1-328B-46DC-B7F0-CC983AFCA514}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2BCE9B2C-0C20-4219-A945-4A35FEDBD542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2BCE9B2C-0C20-4219-A945-4A35FEDBD542}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2BCE9B2C-0C20-4219-A945-4A35FEDBD542}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2BCE9B2C-0C20-4219-A945-4A35FEDBD542}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F1D5B99-9D83-4172-B89E-76D112C94900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F1D5B99-9D83-4172-B89E-76D112C94900}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F1D5B99-9D83-4172-B89E-76D112C94900}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F1D5B99-9D83-4172-B89E-76D112C94900}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7} = {A3A6346A-8C45-4585-A199-CD4C6E62259D}
-		{659BB1FD-BEBC-4599-A2D1-C8157ED939FB} = {A3A6346A-8C45-4585-A199-CD4C6E62259D}
-		{137C00B4-9713-40BF-9C33-9EDF4481FFBC} = {A3A6346A-8C45-4585-A199-CD4C6E62259D}
-		{0E728935-9E7E-4DE2-873E-62136C2A0318} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{B384A028-C393-4B29-979B-0384F2CC89F2} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{89FBB384-70AD-4D7B-AE49-9836068D30B5} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{7CAC65EF-13BE-4E6A-866D-39AD663773D6} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{62E95356-602B-4402-AD5F-1836EAF47982} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{07297040-9966-4D27-8A99-C64084DFAA69} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{0CB16336-73F4-4FA8-892D-BFB1A3AA1989} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{9EBC3AC5-9A21-413D-A9F1-3B2810A0E62A} = {D3ED2A3C-D04E-46C8-9CB2-DBEF2008E3D7}
-		{A6A2A4B5-4E0E-4111-9C0D-7FC39FF40124} = {659BB1FD-BEBC-4599-A2D1-C8157ED939FB}
-		{B744A0D1-328B-46DC-B7F0-CC983AFCA514} = {659BB1FD-BEBC-4599-A2D1-C8157ED939FB}
-		{2BCE9B2C-0C20-4219-A945-4A35FEDBD542} = {659BB1FD-BEBC-4599-A2D1-C8157ED939FB}
-		{F0F97E0D-2786-4FE8-90C1-C500B0A28B6D} = {659BB1FD-BEBC-4599-A2D1-C8157ED939FB}
-		{150BEA2C-FE27-4B7E-9C23-2836DFBA5C75} = {A6A2A4B5-4E0E-4111-9C0D-7FC39FF40124}
-		{7C7FAF1C-A169-4C0C-91BF-A5CA35FAEAE8} = {A6A2A4B5-4E0E-4111-9C0D-7FC39FF40124}
-		{9F1D5B99-9D83-4172-B89E-76D112C94900} = {A6A2A4B5-4E0E-4111-9C0D-7FC39FF40124}
 	EndGlobalSection
 EndGlobal

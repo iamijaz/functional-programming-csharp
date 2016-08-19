@@ -6,8 +6,18 @@ namespace FunctionalCSharp.Sample3.After
 {
     class Program
     {
+        public static Func<int, int> Add(int x) => y => x + y;
+    
         static void Main(string[] args)
         {
+
+            // curried Method application 
+            var r = new[] { 2, 4, 6, 8 }
+        .Select(Add(5))
+        .Select(x => x.ToString())
+        .Aggregate((x, y) => x + Environment.NewLine + y)
+        .Tee(Console.WriteLine);
+
             // Transformation Pipeline
             Disposable
                 .Using(
